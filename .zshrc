@@ -1,7 +1,3 @@
-# Install zsh-syntax-highlighting
-export LANG=en_US.UTF-8
-# export LC_ALL=en_US.UTF-8
-
 setopt autocd extendedglob nomatch
 setopt HIST_SAVE_NO_DUPS
 setopt HIST_EXPIRE_DUPS_FIRST
