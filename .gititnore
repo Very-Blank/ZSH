@@ -1,6 +1,0 @@
-*
-!.gitignore
-!.zshrc
-!.zshrc/config
-!.zsh
-!.zsh/**
