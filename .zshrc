@@ -12,7 +12,7 @@ bindkey -M vicmd ':' vi-cmd-mode
 bindkey "^H" backward-delete-char
 bindkey "^?" backward-delete-char
 
-zstyle :compinstall filename '/home/ample/.zshrc'
+zstyle :compinstall filename '/home/ample/.config/zsh/.zshrc'
 
 fpath+=($HOME/.zsh/pure)
 autoload -U promptinit; promptinit
@@ -40,4 +40,4 @@ prompt pure
 source $HOME/.zsh/aliases.zsh
 
 #highlighting
-source /home/ample/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/ample/.config/zsh/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
